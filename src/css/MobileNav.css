@@ -27,5 +27,6 @@
 @media only screen and (max-width: 500px) {
   .mobile-navbar-links {
     top: 62px;
+    height: calc(100vh - 62px);
   }
 }
