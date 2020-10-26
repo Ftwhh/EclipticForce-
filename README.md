@@ -1,3 +1,6 @@
+Check a demo for the website:
+https://peaceful-mayer-3d055d.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
