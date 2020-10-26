@@ -1,0 +1,31 @@
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-blue-color);
+  z-index: -1;
+}
+
+.background svg {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+}
+#N {
+  top: 5%;
+  left: 5%;
+}
+#R {
+  top: 25%;
+  left: 38%;
+}
+#G {
+  right: 5%;
+  bottom: 5%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .background svg {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+footer {
+  background-color: var(--dark-blue-color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-icons svg {
+  width: 25px;
+  height: 25px;
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 850px) {
+  footer {
+    flex-direction: column;
+  }
+  footer > img,
+  footer > p,
+  footer > div {
+    margin-bottom: 1rem;
+  }
+}

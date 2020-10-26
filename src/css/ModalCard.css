@@ -1,0 +1,66 @@
+.modal-card {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-card a {
+  color: black;
+  text-decoration: underline;
+}
+.modal-card > img {
+  width: 40%;
+}
+.modal-player-info {
+  width: 60%;
+  padding: 1rem 0;
+}
+.modal-player-info > p {
+  text-align: center;
+  font-weight: bold;
+}
+.modal-card svg {
+  width: 25px;
+  height: auto;
+}
+.modal-player-name {
+  font-size: 1.8rem;
+}
+.modal-player-nickname {
+  font-size: 1.3rem;
+}
+.modal-player-socials {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.modal-player-socials > div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.modal-player-socials > div > a:nth-child(2) {
+  width: 60%;
+  padding-left: 0.5rem;
+}
+@media only screen and (max-width: 500px) {
+  .modal-player-name {
+    font-size: 1.2rem;
+  }
+  .modal-player-nickname {
+    font-size: 0.9rem;
+  }
+  .modal-card svg {
+    width: 18px;
+  }
+  .modal-player-info {
+    padding: 0.5rem 0;
+  }
+  .modal-player-socials {
+    display: flex;
+    justify-content: space-around;
+  }
+  .modal-player-socials > div > a:nth-child(2) {
+    display: none;
+  }
+}

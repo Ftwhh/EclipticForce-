@@ -1,0 +1,42 @@
+.card {
+  width: var(--card-width);
+  height: var(--card-height);
+  border: 3px solid black;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+.card-name {
+  text-align: center;
+  padding: 0.5rem 0;
+  position: relative;
+}
+.card-name:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 12%;
+  width: 76%;
+  height: 1px;
+  background-color: #5c5c5c;
+}
+.card-professions {
+  list-style: none;
+  padding: 10% 0 0 5%;
+}
+
+.card-professions li {
+  padding: 0.4rem 0;
+}
+
+.card:nth-child(even) {
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-professions li {
+    font-size: 0.8rem;
+  }
+}

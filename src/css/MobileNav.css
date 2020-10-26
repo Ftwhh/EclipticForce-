@@ -1,0 +1,31 @@
+.mobile-navbar-links {
+  position: fixed;
+  top: 82px;
+  width: 100vw;
+  height: calc(100vh - 82px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateX(-100%);
+  background-color: var(--dark-blue-color);
+  transition: 0.5s ease;
+  z-index: 1000;
+}
+.mobile-navbar-links a {
+  color: white;
+  width: 40%;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 850px) {
+  .mobile-navbar-links {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .mobile-navbar-links {
+    top: 62px;
+  }
+}

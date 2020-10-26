@@ -1,0 +1,48 @@
+header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header-title {
+  font-size: 6.5rem;
+}
+.nrg {
+  color: var(--dark-pink-color);
+}
+.header-description {
+  font-size: 2.5rem;
+  width: 45%;
+  max-width: 45%;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+.header a {
+  color: white;
+  background-color: var(--pink-color);
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  margin-top: 3rem;
+  transition: 0.3s ease-out;
+}
+.header a:hover {
+  background-color: var(--dark-pink-color);
+}
+@media only screen and (max-width: 850px) {
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-description {
+    font-size: 1.5rem;
+    width: 80%;
+    max-width: 80%;
+  }
+  .header a {
+    font-size: 1rem;
+  }
+}

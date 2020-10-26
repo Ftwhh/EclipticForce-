@@ -1,0 +1,47 @@
+#about {
+  padding: 3rem 2rem;
+}
+#about .container {
+  margin: 2rem 0 0 1rem;
+}
+#about div h2 {
+  font-size: 2.2rem;
+  color: var(--pink-color);
+  margin-bottom: 1rem;
+}
+#about div p {
+  font-size: 1.3rem;
+  width: 80%;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+.rec .rec-dot_active {
+  background-color: rgb(237, 33, 70, 0.7);
+  box-shadow: 0 0 1px 3px var(--pink-color);
+}
+.rec .rec-arrow:hover:enabled,
+.rec .rec-arrow:focus:enabled {
+  background-color: var(--pink-color);
+}
+.rec .rec-item-wrapper {
+  height: 100%;
+}
+.rec .rec-carousel {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  #about div h2 {
+    font-size: 1.5rem;
+  }
+  #about div p {
+    font-size: 0.9rem;
+  }
+  .rec .rec-arrow {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    font-size: 1rem;
+    line-height: 0;
+  }
+}

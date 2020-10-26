@@ -1,0 +1,33 @@
+.modal {
+  padding: 2rem 0;
+}
+.modal-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem 0 4rem 0;
+  color: white;
+}
+.modal > svg {
+  width: 25px;
+  position: absolute;
+  top: 14%;
+  right: 5%;
+  cursor: pointer;
+}
+.modal-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+}
+@media only screen and (max-width: 500px) {
+  .modal-cards {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  .modal > svg {
+    width: 20px;
+    top: 12%;
+  }
+}
