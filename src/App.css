@@ -15,6 +15,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-display: block;
+}
 body {
   overflow-x: hidden;
   font-family: var(--Dosis-font);
