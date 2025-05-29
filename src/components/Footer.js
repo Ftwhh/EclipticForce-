@@ -6,10 +6,10 @@ function Footer() {
     <footer>
       <img
         src="https://www.nicepng.com/png/full/26-264893_nrg-logo-dark-background-nrg-esports.png"
-        alt="NRG"
+        alt="EF"
         className="logo"
       />
-      <p>© NRG esports 2016. All Rights Reserved.</p>
+      <p>© EF esports 2025. All Rights Reserved.</p>
       <div className="social-icons">
         <a
           href="https://www.youtube.com/channel/UCaXjGGAmLX-pn0Zv5wAYg9w"
