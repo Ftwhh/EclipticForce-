@@ -12,7 +12,7 @@ function AboutSection() {
   return (
     <section id="about">
       <div className="container">
-        <h2>NRG ESPORTS</h2>
+        <h2>EF Esports</h2>
         <p>
           Fueled by the energy of talented individuals, this particular team
           represents the concentrated ambition to achieve one goal. That goal:
@@ -28,7 +28,7 @@ function AboutSection() {
         </p>
       </div>
       <div className="container">
-        <h2>NRG LEADERSHIP</h2>
+        <h2>EF LEADERSHIP</h2>
         <Carousel
           breakPoints={breakPoints}
           style={{
