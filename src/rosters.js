@@ -1,6 +1,6 @@
 const rosters = [
   {
-    game: "Apex Legends",
+    game: "Lague of legends",
     team: [
       {
         name: "TANNER TREBB",
@@ -34,7 +34,7 @@ const rosters = [
     game_img: "./images/apex_legends.png",
   },
   {
-    game: "Call of Duty",
+    game: "Csgo",
     team: [
       {
         name: "Seth Abner",
@@ -120,7 +120,7 @@ const rosters = [
     game_img: "./images/call_of_duty.png",
   },
   {
-    game: "Fortnite",
+    game: "mobile legend ",
     team: [
       {
         name: "BENJYFISHY",
